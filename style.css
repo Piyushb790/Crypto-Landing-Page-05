@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&family=Orbitron:wght@400;500&family=Roboto&family=Sansita+Swashed:wght@300;400;504;600&family=Squada+One&display=swap");
+body {
+  background: #000;
+  font-family: "Roboto";
+}
+
+.logo {
+  height: 38px;
+  border-right: 2px solid #ffffff;
+  padding-right: 100px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  margin: 0 120px;
+}
+.navbar .list {
+  display: flex;
+  color: #ffffff;
+}
+.list-item {
+  margin-right: 50px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.list-item:hover{
+  color: #ba0cc5;
+  font-size: 21px;
+}
+.button-small {
+  font-size: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ba0cc5;
+  border: none;
+  padding: 8px 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero {
+  background: url(./assets/bg.png);
+  height: 100vh;
+  width: 90%;
+  font-family: "Montserrat";
+  margin: auto;
+}
+.hero-heading {
+  text-align: center;
+  padding-top: 100px;
+  margin: auto;
+  width: 750px;
+  font-size: 70px;
+  color: #ffffff;
+}
+.hero-description {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.button-large {
+  position: relative;
+  left: 38%;
+  top: 3%;
+  font-size: 25px;
+  border-radius: 11px;
+  color: #ffffff;
+  background-color: #ba0cc5;
+  border: none;
+  padding: 20px;
+  font-weight: 900;
+  cursor: pointer;
+}
