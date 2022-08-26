@@ -3,7 +3,9 @@ body {
   background: #000;
   font-family: "Roboto";
 }
-
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
 .logo {
   height: 38px;
   border-right: 2px solid #ffffff;
@@ -42,6 +44,9 @@ body {
   font-weight: 500;
   cursor: pointer;
 }
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
 .hero {
   background: url(./assets/bg.png);
   height: 100vh;
